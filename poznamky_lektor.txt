@@ -1,0 +1,3 @@
+lektor poznamky
+
+Lektory je možné zadávat pouze z www komponent.

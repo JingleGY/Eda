@@ -1,0 +1,207 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns="http://www.w3.org/TR/REC-html40" xmlns:o = 
+"urn:schemas-microsoft-com:office:office" xmlns:x = 
+"urn:schemas-microsoft-com:office:excel" xmlns:a = 
+"urn:schemas-microsoft-com:office:access" xmlns:dt = 
+"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"><HEAD><TITLE>customer_zakaznik</TITLE><LINK 
+href="customer_sort_soubory/filelist.xml" type=text/xml rel=File-List>
+<META content=Access.Application name=ProgId>
+<META name=VBSForEventHandlers VALUE="TRUE">
+<META http-equiv=Content-Type content="text/html; charset=windows-1250">
+<META content=10.00.3420 name=DesignerVersion>
+<META content="HTML 4.0" name=vs_targetSchema>
+<OBJECT id=MSODSC tabIndex=-1 
+classid=CLSID:0002E553-0000-0000-C000-000000000046><PARAM NAME="XMLData" VALUE="<xml xmlns:a=&quot;urn:schemas-microsoft-com:office:access&quot;>&#13;&#10; <a:DataSourceControl>&#13;&#10;  <a:OWCVersion>10.0.0.6712         </a:OWCVersion>&#13;&#10;  <a:ConnectionString>Provider=Microsoft.Jet.OLEDB.4.0;Password=&amp;quot;&amp;quot;;User ID=Admin;Data Source=c:\fine\fine.mdb;Mode=ReadWrite;Extended Properties=&amp;quot;&amp;quot;;Persist Security Info=True;Jet OLEDB:System database=&amp;quot;&amp;quot;;Jet OLEDB:Registry Path=&amp;quot;&amp;quot;;Jet OLEDB:Database Password=&amp;quot;&amp;quot;;Jet OLEDB:Engine Type=0;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&amp;quot;&amp;quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</a:ConnectionString>&#13;&#10;  <a:MaxRecords>10000</a:MaxRecords>&#13;&#10;  <a:GridX>10</a:GridX>&#13;&#10;  <a:GridY>10</a:GridY>&#13;&#10;  <a:OfflineType>2</a:OfflineType>&#13;&#10;  <a:XMLLocation>0</a:XMLLocation>&#13;&#10;  <a:XMLDataTarget></a:XMLDataTarget>&#13;&#10;  <a:ConnectionFile></a:ConnectionFile>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>customerNavLabel</a:ElementID>&#13;&#10;   <a:RecordsetLabel>customer |0 z |2;customer |0-|1 z |2</a:RecordsetLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>Company</a:ElementID>&#13;&#10;   <a:ControlSource>Company</a:ControlSource>&#13;&#10;   <a:ChildLabel>Company_Popis</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>Addr1</a:ElementID>&#13;&#10;   <a:ControlSource>Addr1</a:ControlSource>&#13;&#10;   <a:ChildLabel>Addr1_Popis</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>LastInvoiceDate</a:ElementID>&#13;&#10;   <a:ControlSource>LastInvoiceDate</a:ControlSource>&#13;&#10;   <a:ChildLabel>LastInvoiceDate_Popis</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>Addr2</a:ElementID>&#13;&#10;   <a:ControlSource>Addr2</a:ControlSource>&#13;&#10;   <a:ChildLabel>Addr2_Popis</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>City</a:ElementID>&#13;&#10;   <a:ControlSource>City</a:ControlSource>&#13;&#10;   <a:ChildLabel>City_Popis</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>State</a:ElementID>&#13;&#10;   <a:ControlSource>State</a:ControlSource>&#13;&#10;   <a:ChildLabel>State_Popis</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>Zip</a:ElementID>&#13;&#10;   <a:ControlSource>Zip</a:ControlSource>&#13;&#10;   <a:ChildLabel>Zip_Popis</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>Country</a:ElementID>&#13;&#10;   <a:ControlSource>Country</a:ControlSource>&#13;&#10;   <a:ChildLabel>Country_Popis</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>Phone</a:ElementID>&#13;&#10;   <a:ControlSource>Phone</a:ControlSource>&#13;&#10;   <a:ChildLabel>Phone_Popis</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>FAX</a:ElementID>&#13;&#10;   <a:ControlSource>FAX</a:ControlSource>&#13;&#10;   <a:ChildLabel>FAX_Popis</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>TaxRate</a:ElementID>&#13;&#10;   <a:ControlSource>TaxRate</a:ControlSource>&#13;&#10;   <a:ChildLabel>TaxRate_Popis</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>Contact</a:ElementID>&#13;&#10;   <a:ListRowSource>customer</a:ListRowSource>&#13;&#10;   <a:ListBoundField>Contact</a:ListBoundField>&#13;&#10;   <a:ListDisplayField>Contact</a:ListDisplayField>&#13;&#10;   <a:ChildLabel>Contact_Popis</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:GroupLevel>&#13;&#10;   <a:RecordSource>customer</a:RecordSource>&#13;&#10;   <a:DefaultSort>[CustNo] ASC, [Company] ASC, [Addr1] ASC, [LastInvoiceDate] ASC</a:DefaultSort>&#13;&#10;   <a:HeaderElementId>Záhlavícustomer</a:HeaderElementId>&#13;&#10;   <a:FooterElementId></a:FooterElementId>&#13;&#10;   <a:CaptionElementId></a:CaptionElementId>&#13;&#10;   <a:RecordNavigationElementId>Navigacecustomer</a:RecordNavigationElementId>&#13;&#10;   <a:DataPageSize>1</a:DataPageSize>&#13;&#10;   <a:GroupFilterControl>Contact</a:GroupFilterControl>&#13;&#10;   <a:GroupFilterField>Contact</a:GroupFilterField>&#13;&#10;  </a:GroupLevel>&#13;&#10;  <a:Datamodel a:version=&quot;0816&quot;>&#13;&#10;   <a:SchemaRowsource a:id=&quot;customer&quot; a:type=&quot;dscTable&quot;>&#13;&#10;    <a:SchemaField a:id=&quot;CustNo&quot; a:datatype=&quot;3&quot; a:size=&quot;0&quot; a:iskey=&quot;1&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;Company&quot; a:datatype=&quot;130&quot; a:size=&quot;255&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;Addr1&quot; a:datatype=&quot;130&quot; a:size=&quot;255&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;Addr2&quot; a:datatype=&quot;130&quot; a:size=&quot;255&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;City&quot; a:datatype=&quot;130&quot; a:size=&quot;100&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;State&quot; a:datatype=&quot;130&quot; a:size=&quot;100&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;Zip&quot; a:datatype=&quot;130&quot; a:size=&quot;30&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;Country&quot; a:datatype=&quot;130&quot; a:size=&quot;100&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;Phone&quot; a:datatype=&quot;130&quot; a:size=&quot;45&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;FAX&quot; a:datatype=&quot;130&quot; a:size=&quot;45&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;TaxRate&quot; a:datatype=&quot;3&quot; a:size=&quot;0&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;Contact&quot; a:datatype=&quot;130&quot; a:size=&quot;255&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;LastInvoiceDate&quot; a:datatype=&quot;130&quot; a:size=&quot;100&quot;/>&#13;&#10;   </a:SchemaRowsource>&#13;&#10;   <a:RecordsetDef a:id=&quot;customer&quot;>&#13;&#10;    <a:PageField a:id=&quot;CustNo&quot;/>&#13;&#10;    <a:PageField a:id=&quot;Company&quot;/>&#13;&#10;    <a:PageField a:id=&quot;Addr1&quot;/>&#13;&#10;    <a:PageField a:id=&quot;LastInvoiceDate&quot;/>&#13;&#10;    <a:PageField a:id=&quot;Addr2&quot;/>&#13;&#10;    <a:PageField a:id=&quot;City&quot;/>&#13;&#10;    <a:PageField a:id=&quot;State&quot;/>&#13;&#10;    <a:PageField a:id=&quot;Zip&quot;/>&#13;&#10;    <a:PageField a:id=&quot;Country&quot;/>&#13;&#10;    <a:PageField a:id=&quot;Phone&quot;/>&#13;&#10;    <a:PageField a:id=&quot;FAX&quot;/>&#13;&#10;    <a:PageField a:id=&quot;TaxRate&quot;/>&#13;&#10;    <a:PageField a:id=&quot;Contact&quot;/>&#13;&#10;   </a:RecordsetDef>&#13;&#10;  </a:Datamodel>&#13;&#10; </a:DataSourceControl>&#13;&#10;</xml>"></OBJECT>
+<META content="MSHTML 6.00.2900.2523" name=GENERATOR>
+<STYLE id=MSODAPDEFAULTS type=text/css>.MsoRecordSelectorTransparent {
+	LEFT: 0px; OVERFLOW: hidden; TOP: 0px
+}
+.MsoRecordSelectorDirty {
+	BACKGROUND-POSITION: -1px 0px; BACKGROUND-IMAGE: url(owc://GIF/#11242); BACKGROUND-REPEAT: no-repeat
+}
+.MsoRecordSelectorDirtyCurrent {
+	BACKGROUND-POSITION: -1px 0px; BACKGROUND-IMAGE: url(owc://GIF/#11242); BACKGROUND-REPEAT: no-repeat
+}
+.MsoRecordSelectorSelected {
+	BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonshadow 1px solid; LEFT: 0px; OVERFLOW: hidden; BORDER-LEFT: buttonshadow 1px solid; BORDER-BOTTOM: buttonshadow 1px solid; TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: buttonshadow
+}
+.MsoRecordSelectorSelectedImage {
+	BACKGROUND-POSITION: 1px 0px; BACKGROUND-IMAGE: url(owc://GIF/#11241); BACKGROUND-REPEAT: no-repeat
+}
+.MsoRecordSelectorCurrent {
+	BACKGROUND-POSITION: 1px 0px; BACKGROUND-IMAGE: url(owc://GIF/#11240); BACKGROUND-REPEAT: no-repeat
+}
+.MsoRecordSelector {
+	BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonshadow 1px solid; OVERFLOW: hidden; BORDER-LEFT: buttonshadow 1px solid; BORDER-BOTTOM: buttonshadow 1px solid; HEIGHT: 100%; BACKGROUND-COLOR: gainsboro
+}
+.MsoNavRecordsetLabel {
+	BORDER-RIGHT: gainsboro 1px solid; BORDER-TOP: gainsboro 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 8pt; OVERFLOW: hidden; BORDER-LEFT: gainsboro 1px solid; WIDTH: 100%; CURSOR: default; PADDING-TOP: 0px; BORDER-BOTTOM: gainsboro 1px solid; FONT-FAMILY: Tahoma; POSITION: relative
+}
+.MsoNavButtonMouseDown {
+	BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonshadow 1px solid; BORDER-LEFT: buttonshadow 1px solid; CURSOR: hand; BORDER-BOTTOM: buttonshadow 1px solid; BACKGROUND-COLOR: buttonshadow
+}
+.MsoNavToggleButtonMouseOver {
+	BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonshadow 1px solid; BORDER-LEFT: buttonshadow 1px solid; BORDER-BOTTOM: buttonshadow 1px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: buttonshadow
+}
+.MsoNavButtonMouseOver {
+	BORDER-RIGHT: highlight 1px solid; BORDER-TOP: highlight 1px solid; BORDER-LEFT: highlight 1px solid; BORDER-BOTTOM: highlight 1px solid; BACKGROUND-COLOR: buttonhighlight
+}
+.MsoNavButton {
+	BORDER-RIGHT: gainsboro 1px solid; BORDER-TOP: gainsboro 1px solid; BORDER-LEFT: gainsboro 1px solid; CURSOR: auto; BORDER-BOTTOM: gainsboro 1px solid; BACKGROUND-REPEAT: no-repeat
+}
+.MsoNavContainer {
+	BORDER-RIGHT: gainsboro 1px solid; BORDER-TOP: gainsboro 1px solid; Z-INDEX: -1; BORDER-LEFT: gainsboro 1px solid; CURSOR: hand; BORDER-BOTTOM: gainsboro 1px solid; HEIGHT: 25px; BACKGROUND-COLOR: gainsboro
+}
+.MsoExpandCollapse {
+	CURSOR: hand
+}
+.MsoTitle {
+	DISPLAY: none; FONT-WEIGHT: normal; COLOR: inactivecaptiontext
+}
+.MsoRectangle {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; OVERFLOW: hidden; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+.Mso2dSectionBanner {
+	PADDING-RIGHT: 4px; DISPLAY: none; PADDING-LEFT: 4px; FONT-WEIGHT: normal; FONT-SIZE: 8pt; LEFT: 0px; BEHAVIOR: url(#DEFAULT#Mso2dSectionBanner); OVERFLOW: visible; PADDING-TOP: 2px; FONT-FAMILY: Tahoma; TOP: 0px; HEIGHT: 0.507cm; BACKGROUND-COLOR: buttonface
+}
+.Mso2dSection {
+	LEFT: 0px; BEHAVIOR: url(#DEFAULT#Mso2dSection); OVERFLOW: hidden; POSITION: relative; TOP: 0px; BACKGROUND-COLOR: transparent
+}
+.MsoHyperlinkDisplayText {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 3px; BORDER-TOP: 0px; PADDING-LEFT: 3px; OVERFLOW: hidden; BORDER-LEFT: 0px; CURSOR: hand; BORDER-BOTTOM: 0px; TEXT-ALIGN: left
+}
+.MsoBoundSpan {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 3px; BORDER-TOP: 0px; PADDING-LEFT: 3px; OVERFLOW: hidden; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; TEXT-ALIGN: left
+}
+.MsoTextbox {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; OVERFLOW: hidden; WIDTH: 2.539cm; HEIGHT: 0.502cm
+}
+.MSTheme-Label {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 3px; BORDER-TOP: 0px; PADDING-LEFT: 3px; OVERFLOW: visible; BORDER-LEFT: 0px; WIDTH: 2.539cm; BORDER-BOTTOM: 0px; HEIGHT: 0.396cm; TEXT-ALIGN: left
+}
+</STYLE>
+
+<SCRIPT language=Javascript id=MSODSC_Validation>
+validateBrowser();
+
+function validateBrowser() {
+	strVers=navigator.appVersion
+	strName=navigator.appName
+	strPlat=navigator.platform
+	intIndex1=strVers.indexOf("MSIE");
+	intIndex1=intIndex1+5
+	intIndex2=strVers.lastIndexOf(";");
+	intVer=strVers.substring(intIndex1, intIndex2)
+	intVer=parseInt(intVer)
+	if (strName=="Microsoft Internet Explorer" && strPlat=="Win32" && intVer>="5") {
+	validateOWC();
+	}
+	else {
+		strMsgGetIE="<TABLE cellSpacing=0 cellPadding=0 width='95%' border=0 height='8'><TR>"
+		strMsgGetIE+="<TD bgColor='#336699' height=25 width=15>&nbsp;</TD><TD bgColor='#666666' width=500px><FONT face=Tahoma "
+		strMsgGetIE+="size=4 color=white><b>&nbsp;Oznámení datové stránky</B></FONT></TD></TR>"
+		strMsgGetIE+="<TR><TD bgColor='#cccccc' width=15>&nbsp;</TD><TD bgColor='#cccccc' width=500px><BR>"
+		strMsgGetIE+="<p><font face='Tahoma' size='2'>"
+		strMsgGetIE+="K zobrazení této stránky je vyžadována aplikace Windows IE verze 5.0 nebo vyšší.</p>"
+		strMsgGetIE+="<a href='http://www.microsoft.com/isapi/redir.dll?Prd=Office&Sbp=Access&Pver=10&Ar=DPdesigner&Sba=IEhome&Plcid=1029'><p align='center'>"
+		strMsgGetIE+="Zde klepněte, chcete-li nainstalovat aktuální verzi aplikace Internet Explorer.</a></font></p><br></TD></TR></TABLE>"
+		document.write(strMsgGetIE)
+	}
+}
+
+function validateOWC() {
+	if (MSODSC.object==null) {
+		strMsgGetOWC="<TABLE width='95%' cellpadding=0 cellspacing=0 border=0 height='8'>"
+		strMsgGetOWC+="<TR><TD bgColor='#336699' height=25 width=15>&nbsp;</TD><TD bgColor='#666666' width=500px>"
+		strMsgGetOWC+="<FONT face=Tahoma color=white size=4><B>&nbsp;&nbsp;"
+		strMsgGetOWC+="Oznámení datové stránky</B></FONT></TD></TR><TR><TD bgColor='#cccccc' width=15>&nbsp;</TD>"
+		strMsgGetOWC+="<TD bgColor='#cccccc' width='500px'><BR>"
+		strMsgGetOWC+="<p><font face='Tahoma' size='2'>K zobrazení této stránky jsou vyžadovány komponenty Office Web Components.</p>"
+		strMsgGetOWC+="</font><p><font face='Tahoma' size='2'>See the <a HRef='http://r.office.microsoft.com/r/rlidmsowcpub?clid=1029&p1=Microsoft Access&HelpLCID=1033'>Microsoft Office Web site</a> for more information. "
+		strMsgGetOWC+="</font></p><BR></TD></TR></TABLE>"
+		document.write(strMsgGetOWC)
+	}
+}
+
+</SCRIPT>
+
+<META content="Ripple 011" name="Microsoft Theme 2.00"><LINK id=mstheme 
+href="customer_zakaznik_soubory\file0007.css" type=text/css rel=StyleSheet><LINK 
+id=mstheme href="customer_zakaznik_soubory\file0008.css" type=text/css 
+rel=StyleSheet><LINK id=mstheme href="customer_zakaznik_soubory\file0012.css" 
+type=text/css rel=StyleSheet><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>none</o:Author>
+  <o:LastAuthor>none</o:LastAuthor>
+  <o:Revision>17</o:Revision>
+  <o:TotalTime>3</o:TotalTime>
+  <o:Created>2004-07-06T22:10:25Z</o:Created>
+  <o:LastSaved>2004-10-16T00:57:17Z</o:LastSaved>
+  <o:Company>none</o:Company>
+  <o:Version>11.6360</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--></HEAD>
+<BODY style="OVERFLOW: auto" vLink=#800080 link=#0000ff>
+<CENTER>
+<H1 class="" id=TextHlavičky>Zákazník</H1>
+<P class="">(smazat nebo opravit záznam)</P></CENTER>
+<DIV class=Mso2dSectionBanner id=ZáhlavícustomerBanner 
+style="MARGIN-LEFT: 0px; WIDTH: 16.828cm" tabIndex=-1><SPAN 
+id=ZáhlavícustomerBannerCaption>Záhlaví: customer</SPAN></DIV>
+<DIV class=Mso2dSection id=Záhlavícustomer 
+style="VISIBILITY: inherit; MARGIN-LEFT: 0px; WIDTH: 16.828cm; HEIGHT: 8.837cm"><SPAN 
+class=MSTheme-Label id=Company_Popis 
+style="LEFT: 0.053cm; OVERFLOW: hidden; WIDTH: 3.809cm; POSITION: absolute; TOP: 0.714cm; HEIGHT: 0.608cm">Společnost:</SPAN><TEXTAREA class=MsoTextbox id=Company style="LEFT: 3.863cm; WIDTH: 183px; POSITION: absolute; TOP: 0.714cm; HEIGHT: 20px" tabIndex=1 cols=18 MsoTextAlign="General"></TEXTAREA><SPAN 
+class=MSTheme-Label id=Addr1_Popis 
+style="LEFT: 0.079cm; OVERFLOW: hidden; WIDTH: 3.809cm; POSITION: absolute; TOP: 2.09cm; HEIGHT: 0.608cm">Adresa:</SPAN><TEXTAREA class=MsoTextbox id=Addr1 style="LEFT: 3.889cm; WIDTH: 182px; POSITION: absolute; TOP: 2.09cm; HEIGHT: 20px" tabIndex=2 cols=18 MsoTextAlign="General"></TEXTAREA><SPAN 
+class=MSTheme-Label id=LastInvoiceDate_Popis 
+style="LEFT: 0.025cm; OVERFLOW: hidden; WIDTH: 3.807cm; POSITION: absolute; TOP: 8.202cm; HEIGHT: 0.608cm">Cost 
+centre:</SPAN><TEXTAREA class=MsoTextbox id=LastInvoiceDate style="LEFT: 3.81cm; WIDTH: 185px; POSITION: absolute; TOP: 8.202cm; HEIGHT: 20px" tabIndex=12 cols=23 MsoTextAlign="General"></TEXTAREA><SPAN 
+class=MSTheme-Label id=Addr2_Popis 
+style="LEFT: 0.079cm; OVERFLOW: hidden; WIDTH: 3.809cm; POSITION: absolute; TOP: 2.804cm; HEIGHT: 0.608cm">Email/WWW:</SPAN><TEXTAREA class=MsoTextbox id=Addr2 style="LEFT: 3.889cm; WIDTH: 182px; POSITION: absolute; TOP: 2.804cm; HEIGHT: 20px" tabIndex=3 cols=19 MsoTextAlign="General"></TEXTAREA><SPAN 
+class=MSTheme-Label id=City_Popis 
+style="LEFT: 0.053cm; OVERFLOW: hidden; WIDTH: 3.809cm; POSITION: absolute; TOP: 3.439cm; HEIGHT: 0.608cm">Město:</SPAN><TEXTAREA class=MsoTextbox id=City style="LEFT: 3.863cm; WIDTH: 183px; POSITION: absolute; TOP: 3.439cm; HEIGHT: 20px" tabIndex=4 cols=15 MsoTextAlign="General"></TEXTAREA><SPAN 
+class=MSTheme-Label id=State_Popis 
+style="LEFT: 0.053cm; OVERFLOW: hidden; WIDTH: 3.809cm; POSITION: absolute; TOP: 4.102cm; HEIGHT: 0.608cm">Kraj:</SPAN><TEXTAREA class=MsoTextbox id=State style="LEFT: 3.863cm; WIDTH: 183px; POSITION: absolute; TOP: 4.102cm; HEIGHT: 20px" tabIndex=5 cols=19 MsoTextAlign="General"></TEXTAREA><SPAN 
+class=MSTheme-Label id=Zip_Popis 
+style="LEFT: 0.053cm; OVERFLOW: hidden; WIDTH: 3.809cm; POSITION: absolute; TOP: 4.788cm; HEIGHT: 0.608cm">PSČ:</SPAN><TEXTAREA class=MsoTextbox id=Zip style="LEFT: 3.863cm; WIDTH: 183px; POSITION: absolute; TOP: 4.788cm; HEIGHT: 20px" tabIndex=6 cols=21 MsoTextAlign="General"></TEXTAREA><SPAN 
+class=MSTheme-Label id=Country_Popis 
+style="LEFT: 0.053cm; OVERFLOW: hidden; WIDTH: 3.809cm; POSITION: absolute; TOP: 5.451cm; HEIGHT: 0.608cm">Země:</SPAN><TEXTAREA class=MsoTextbox id=Country style="LEFT: 3.863cm; WIDTH: 183px; POSITION: absolute; TOP: 5.451cm; HEIGHT: 20px" tabIndex=7 MsoTextAlign="General"></TEXTAREA><SPAN 
+class=MSTheme-Label id=Phone_Popis 
+style="LEFT: 0.053cm; OVERFLOW: hidden; WIDTH: 3.809cm; POSITION: absolute; TOP: 6.139cm; HEIGHT: 0.608cm">Telefon:</SPAN><TEXTAREA class=MsoTextbox id=Phone style="LEFT: 3.863cm; WIDTH: 183px; POSITION: absolute; TOP: 6.139cm; HEIGHT: 20px" tabIndex=8 cols=24 MsoTextAlign="General"></TEXTAREA><SPAN 
+class=MSTheme-Label id=FAX_Popis 
+style="LEFT: 0.053cm; OVERFLOW: hidden; WIDTH: 3.809cm; POSITION: absolute; TOP: 6.828cm; HEIGHT: 0.608cm">FAX/Mobil:</SPAN><TEXTAREA class=MsoTextbox id=FAX style="LEFT: 3.863cm; WIDTH: 183px; POSITION: absolute; TOP: 6.828cm; HEIGHT: 20px" tabIndex=9 cols=24 MsoTextAlign="General"></TEXTAREA><SPAN 
+class=MSTheme-Label id=TaxRate_Popis 
+style="LEFT: 0.053cm; OVERFLOW: hidden; WIDTH: 3.809cm; POSITION: absolute; TOP: 7.488cm; HEIGHT: 0.608cm">Paušál:</SPAN><TEXTAREA class=MsoTextbox id=TaxRate style="LEFT: 3.863cm; WIDTH: 183px; POSITION: absolute; TOP: 7.488cm; HEIGHT: 20px" tabIndex=10 cols=19 MsoTextAlign="General"></TEXTAREA><SPAN 
+class=MSTheme-Label id=Contact_Popis 
+style="LEFT: 0.132cm; OVERFLOW: hidden; WIDTH: 5.093cm; POSITION: absolute; TOP: 1.402cm; HEIGHT: 0.529cm">Příjmenní/Jméno:</SPAN><SELECT 
+id=Contact 
+style="Z-INDEX: 4; LEFT: 3.883cm; WIDTH: 5.329cm; POSITION: absolute; TOP: 1.402cm; HEIGHT: 0.502cm"><OPTION 
+  selected></OPTION></SELECT></DIV>
+<DIV class=Mso2dSectionBanner id=NavigacecustomerBanner 
+style="MARGIN-LEFT: 0px; WIDTH: 16.828cm" tabIndex=-1><SPAN 
+id=NavigacecustomerBannerCaption>Navigace: customer</SPAN></DIV>
+<DIV class=Mso2dSection id=Navigacecustomer 
+style="VISIBILITY: inherit; MARGIN-LEFT: 0px; WIDTH: 16.828cm; HEIGHT: 0.846cm">
+<TABLE class=MsoNavContainer id=customerNavigace 
+style="LEFT: 4px; WIDTH: 325px; POSITION: absolute; TOP: 4px; HEIGHT: 24px" 
+cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD style="VERTICAL-ALIGN: middle; WIDTH: 100%; TEXT-ALIGN: center" 
+      noWrap><SPAN class=MsoNavRecordsetLabel id=customerNavLabel 
+      style="VISIBILITY: hidden" tabIndex=3>customer |0 z |2</SPAN></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavDelete id=customerNavDelete tabIndex=7 
+    src="owc://GIF/#11210"></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavSave id=customerNavSave tabIndex=8 src="owc://GIF/#11214"></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavUndo id=customerNavUndo tabIndex=9 src="owc://GIF/#11212"></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavSortAsc id=customerNavSortAscending tabIndex=10 
+      src="owc://GIF/#11216"></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavSortDesc id=customerNavSortDescending tabIndex=11 
+      src="owc://GIF/#11218"></TD></TR></TBODY></TABLE></DIV>
+<P>&nbsp;</P></BODY></HTML>

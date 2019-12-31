@@ -1,0 +1,14 @@
+lekce poznamky
+
+Pro provedeni prehledu v EXCELU, nabidka pod touto v menu, je treba povolit automatickou aktualizaci dat nebo provest rucni export z menu ci nabidky v pravem sloupci - Detailni tabulka s autofiltry.
+
+Na tabulce kliknout pravym tacitkem mysi a zvolit "prikazy a moznosti"
+chovani v pravo a zaskrtnout panel nastroju. Tim ze zobrazi lista nad tabulkou.
+
+Na liste potom klepnout na velke zelene X (4 ikona zprava) Tim se otevre aplikace excel z MS office, pokud jej mate nainstalovan a mate verzi XP nebo 2003 a vyssi :-)
+
+V aplikaci EXCEL pokud mate otevrenou tabulku z nabidky umistene pod touto musite nejprve pred zapocetim prace naimportovat aktualni data z databaze. Pokud je databaze provazana staci z hl. menu vybrat DATA a volbu dole s cervenym vykricnikem, AKTUALIZOVAT DATA. Pokud vse probehlo bez problemu neni ze starany excelu zadna hlaska. Data jsou tak aktualni. Toto je nutno provest vzdy pri jakekoliv zmene v databazi aby nahled byl aktualni. Operaci lze provest i opacne a sice ulozit data upravena v excelu zpatky do databaze. Tento postup ale vrele NEDOPORUCUJI!!!
+
+Pøi zadávání nové lekce se po stisknutí tlaèítka nový záznam v okénku modré barvy Zákazník èíslo objeví èíslo zákazníka zobrazeného vlevo. Jde o kontrolní okénka kam nelze nic zapisovat. Systém pøiøazuje èísla automaticky. V okénku lekce èíslo se ale zobrazí záznam o poøadovém èíslu lekce až ve chvíli kliknutí na tlaèítko uložit. Do tohoto okénka taktéž nic nevpisujte. Je aktualizováno automaticky a slouží pro kontrolu.
+
+Klepnutím na tlaèítko SMAZAT se okmžitì a bez jakéhokoliv dotazu vymaže aktuálnì zobrazená lekce se všemi záznami. Proto budte opatrní. Zákazník funguje stejným zpùsobem jen stím rozdílem že nemá možnost výmazu pokud k nìmu existuje alespoò 1 lekce. Je-li však bez lekce tak jej lze smazat taktéž okamžitì. Proto jsou tato pole èervená. Dotazy zde nejsou z dùvodu urychlení práce a eliminace pokudmožno všech otravných dialogù které jen zdržují (na pøání zadavatele).

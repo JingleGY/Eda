@@ -1,0 +1,276 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns="http://www.w3.org/TR/REC-html40" xmlns:o = 
+"urn:schemas-microsoft-com:office:office" xmlns:x = 
+"urn:schemas-microsoft-com:office:excel" xmlns:a = 
+"urn:schemas-microsoft-com:office:access" xmlns:dt = 
+"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"><HEAD><LINK 
+href="kredit_soubory/filelist.xml" type=text/xml 
+rel=File-List><TITLE>kredit</TITLE>
+<META content=Access.Application name=ProgId>
+<META name=VBSForEventHandlers VALUE="TRUE">
+<META http-equiv=Content-Type content="text/html; charset=windows-1250">
+<META content=10.00.3420 name=DesignerVersion>
+<META content="HTML 4.0" name=vs_targetSchema>
+<OBJECT id=MSODSC tabIndex=-1 
+classid=CLSID:0002E553-0000-0000-C000-000000000046><PARAM NAME="XMLData" VALUE="<xml xmlns:a=&quot;urn:schemas-microsoft-com:office:access&quot;>&#13;&#10; <a:DataSourceControl>&#13;&#10;  <a:OWCVersion>10.0.0.6712         </a:OWCVersion>&#13;&#10;  <a:ConnectionString>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\fine\fine.mdb;Mode=Share Deny None;Extended Properties=&amp;quot;&amp;quot;;Persist Security Info=False;Jet OLEDB:System database=&amp;quot;&amp;quot;;Jet OLEDB:Registry Path=&amp;quot;&amp;quot;;Jet OLEDB:Database Password=&amp;quot;&amp;quot;;Jet OLEDB:Engine Type=0;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&amp;quot;&amp;quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</a:ConnectionString>&#13;&#10;  <a:MaxRecords>10000</a:MaxRecords>&#13;&#10;  <a:GridX>10</a:GridX>&#13;&#10;  <a:GridY>10</a:GridY>&#13;&#10;  <a:OfflineType>2</a:OfflineType>&#13;&#10;  <a:XMLLocation>0</a:XMLLocation>&#13;&#10;  <a:XMLDataTarget></a:XMLDataTarget>&#13;&#10;  <a:ConnectionFile></a:ConnectionFile>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>ordersNavLabel</a:ElementID>&#13;&#10;   <a:RecordsetLabel>orders |0 z |2;orders |0-|1 z |2</a:RecordsetLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>orders-CustNoNavLabel</a:ElementID>&#13;&#10;   <a:RecordsetLabel>orders-CustNo |0 z |2;orders-CustNo |0-|1 z |2</a:RecordsetLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>CustNo</a:ElementID>&#13;&#10;   <a:ControlSource>SkupinaZorders-CustNo</a:ControlSource>&#13;&#10;   <a:ChildLabel>CustNo_Popis</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>OrderNo</a:ElementID>&#13;&#10;   <a:ControlSource>OrderNo</a:ControlSource>&#13;&#10;   <a:ChildLabel>OrderNo_Popis</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:ElementExtension>&#13;&#10;   <a:ElementID>AmountPaid</a:ElementID>&#13;&#10;   <a:ControlSource>AmountPaid</a:ControlSource>&#13;&#10;   <a:ChildLabel>AmountPaid_Popis</a:ChildLabel>&#13;&#10;  </a:ElementExtension>&#13;&#10;  <a:GroupLevel>&#13;&#10;   <a:RecordSource>orders-CustNo</a:RecordSource>&#13;&#10;   <a:DefaultSort>[SkupinaZorders-CustNo]</a:DefaultSort>&#13;&#10;   <a:HeaderElementId>ZáhlavíordersCustNo</a:HeaderElementId>&#13;&#10;   <a:FooterElementId></a:FooterElementId>&#13;&#10;   <a:CaptionElementId>TitulekordersCustNo</a:CaptionElementId>&#13;&#10;   <a:RecordNavigationElementId>NavigaceordersCustNo</a:RecordNavigationElementId>&#13;&#10;   <a:DataPageSize>1</a:DataPageSize>&#13;&#10;   <a:GroupFilterControl></a:GroupFilterControl>&#13;&#10;   <a:NoAllowEdits/>&#13;&#10;   <a:NoAllowAdditions/>&#13;&#10;   <a:NoAllowDeletions/>&#13;&#10;  </a:GroupLevel>&#13;&#10;  <a:GroupLevel>&#13;&#10;   <a:RecordSource>orders</a:RecordSource>&#13;&#10;   <a:DefaultSort>[OrderNo] ASC</a:DefaultSort>&#13;&#10;   <a:HeaderElementId>Záhlavíorders</a:HeaderElementId>&#13;&#10;   <a:FooterElementId></a:FooterElementId>&#13;&#10;   <a:CaptionElementId></a:CaptionElementId>&#13;&#10;   <a:RecordNavigationElementId>Navigaceorders</a:RecordNavigationElementId>&#13;&#10;   <a:DataPageSize>1</a:DataPageSize>&#13;&#10;   <a:GroupFilterControl></a:GroupFilterControl>&#13;&#10;  </a:GroupLevel>&#13;&#10;  <a:Datamodel a:version=&quot;0816&quot;>&#13;&#10;   <a:SchemaRowsource a:id=&quot;orders&quot; a:type=&quot;dscTable&quot;>&#13;&#10;    <a:SchemaField a:id=&quot;OrderNo&quot; a:datatype=&quot;3&quot; a:size=&quot;0&quot; a:iskey=&quot;1&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;CustNo&quot; a:datatype=&quot;3&quot; a:size=&quot;0&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;SaleDate&quot; a:datatype=&quot;7&quot; a:size=&quot;0&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;ShipDate&quot; a:datatype=&quot;7&quot; a:size=&quot;0&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;EmpNo&quot; a:datatype=&quot;3&quot; a:size=&quot;0&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;ShipToContact&quot; a:datatype=&quot;130&quot; a:size=&quot;255&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;ShipToAddr1&quot; a:datatype=&quot;130&quot; a:size=&quot;255&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;ShipToAddr2&quot; a:datatype=&quot;130&quot; a:size=&quot;255&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;ShipToCity&quot; a:datatype=&quot;130&quot; a:size=&quot;100&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;ShipToState&quot; a:datatype=&quot;130&quot; a:size=&quot;100&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;ShipToZip&quot; a:datatype=&quot;130&quot; a:size=&quot;50&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;ShipToCountry&quot; a:datatype=&quot;130&quot; a:size=&quot;100&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;ShipToPhone&quot; a:datatype=&quot;130&quot; a:size=&quot;45&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;ShipVIA&quot; a:datatype=&quot;130&quot; a:size=&quot;50&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;PO&quot; a:datatype=&quot;130&quot; a:size=&quot;50&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;Terms&quot; a:datatype=&quot;130&quot; a:size=&quot;50&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;PaymentMethod&quot; a:datatype=&quot;130&quot; a:size=&quot;50&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;ItemsTotal&quot; a:datatype=&quot;5&quot; a:size=&quot;0&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;TaxRate&quot; a:datatype=&quot;5&quot; a:size=&quot;0&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;Freight&quot; a:datatype=&quot;130&quot; a:size=&quot;50&quot;/>&#13;&#10;    <a:SchemaField a:id=&quot;AmountPaid&quot; a:datatype=&quot;5&quot; a:size=&quot;0&quot;/>&#13;&#10;   </a:SchemaRowsource>&#13;&#10;   <a:RecordsetDef a:id=&quot;orders&quot;>&#13;&#10;    <a:PageField a:id=&quot;OrderNo&quot;/>&#13;&#10;    <a:PageField a:id=&quot;CustNo&quot;/>&#13;&#10;    <a:PageField a:id=&quot;AmountPaid&quot;/>&#13;&#10;    <a:GroupingDef a:id=&quot;orders-CustNo&quot;>&#13;&#10;     <a:PageField a:id=&quot;SkupinaZorders-CustNo&quot; a:source=&quot;CustNo&quot;&#13;&#10;      a:groupon=&quot;dscEachValue&quot; a:interval=&quot;1.0&quot;/>&#13;&#10;    </a:GroupingDef>&#13;&#10;   </a:RecordsetDef>&#13;&#10;  </a:Datamodel>&#13;&#10; </a:DataSourceControl>&#13;&#10;</xml>"></OBJECT>
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR>
+<STYLE id=MSODAPDEFAULTS type=text/css>.MsoRecordSelectorTransparent {
+	LEFT: 0px; OVERFLOW: hidden; TOP: 0px
+}
+.MsoRecordSelectorDirty {
+	BACKGROUND-POSITION: -1px 0px; BACKGROUND-IMAGE: url(owc://GIF/#11242); BACKGROUND-REPEAT: no-repeat
+}
+.MsoRecordSelectorDirtyCurrent {
+	BACKGROUND-POSITION: -1px 0px; BACKGROUND-IMAGE: url(owc://GIF/#11242); BACKGROUND-REPEAT: no-repeat
+}
+.MsoRecordSelectorSelected {
+	BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonshadow 1px solid; LEFT: 0px; OVERFLOW: hidden; BORDER-LEFT: buttonshadow 1px solid; BORDER-BOTTOM: buttonshadow 1px solid; TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: buttonshadow
+}
+.MsoRecordSelectorSelectedImage {
+	BACKGROUND-POSITION: 1px 0px; BACKGROUND-IMAGE: url(owc://GIF/#11241); BACKGROUND-REPEAT: no-repeat
+}
+.MsoRecordSelectorCurrent {
+	BACKGROUND-POSITION: 1px 0px; BACKGROUND-IMAGE: url(owc://GIF/#11240); BACKGROUND-REPEAT: no-repeat
+}
+.MsoRecordSelector {
+	BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonshadow 1px solid; OVERFLOW: hidden; BORDER-LEFT: buttonshadow 1px solid; BORDER-BOTTOM: buttonshadow 1px solid; HEIGHT: 100%; BACKGROUND-COLOR: gainsboro
+}
+.MsoNavRecordsetLabel {
+	BORDER-RIGHT: gainsboro 1px solid; BORDER-TOP: gainsboro 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 8pt; OVERFLOW: hidden; BORDER-LEFT: gainsboro 1px solid; WIDTH: 100%; CURSOR: default; PADDING-TOP: 0px; BORDER-BOTTOM: gainsboro 1px solid; FONT-FAMILY: Tahoma; POSITION: relative
+}
+.MsoNavButtonMouseDown {
+	BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonshadow 1px solid; BORDER-LEFT: buttonshadow 1px solid; CURSOR: hand; BORDER-BOTTOM: buttonshadow 1px solid; BACKGROUND-COLOR: buttonshadow
+}
+.MsoNavToggleButtonMouseOver {
+	BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonshadow 1px solid; BORDER-LEFT: buttonshadow 1px solid; BORDER-BOTTOM: buttonshadow 1px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: buttonshadow
+}
+.MsoNavButtonMouseOver {
+	BORDER-RIGHT: highlight 1px solid; BORDER-TOP: highlight 1px solid; BORDER-LEFT: highlight 1px solid; BORDER-BOTTOM: highlight 1px solid; BACKGROUND-COLOR: buttonhighlight
+}
+.MsoNavButton {
+	BORDER-RIGHT: gainsboro 1px solid; BORDER-TOP: gainsboro 1px solid; BORDER-LEFT: gainsboro 1px solid; CURSOR: auto; BORDER-BOTTOM: gainsboro 1px solid; BACKGROUND-REPEAT: no-repeat
+}
+.MsoNavContainer {
+	BORDER-RIGHT: gainsboro 1px solid; BORDER-TOP: gainsboro 1px solid; Z-INDEX: -1; BORDER-LEFT: gainsboro 1px solid; CURSOR: hand; BORDER-BOTTOM: gainsboro 1px solid; HEIGHT: 25px; BACKGROUND-COLOR: gainsboro
+}
+.MsoExpandCollapse {
+	CURSOR: hand
+}
+.MsoTitle {
+	DISPLAY: none; FONT-WEIGHT: normal; COLOR: inactivecaptiontext
+}
+.MsoRectangle {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; OVERFLOW: hidden; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid
+}
+.Mso2dSectionBanner {
+	PADDING-RIGHT: 4px; DISPLAY: none; PADDING-LEFT: 4px; FONT-WEIGHT: normal; FONT-SIZE: 8pt; LEFT: 0px; BEHAVIOR: url(#DEFAULT#Mso2dSectionBanner); OVERFLOW: visible; PADDING-TOP: 2px; FONT-FAMILY: Tahoma; TOP: 0px; HEIGHT: 0.507cm; BACKGROUND-COLOR: buttonface
+}
+.Mso2dSection {
+	LEFT: 0px; BEHAVIOR: url(#DEFAULT#Mso2dSection); OVERFLOW: hidden; POSITION: relative; TOP: 0px; BACKGROUND-COLOR: transparent
+}
+.MsoHyperlinkDisplayText {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 3px; BORDER-TOP: 0px; PADDING-LEFT: 3px; OVERFLOW: hidden; BORDER-LEFT: 0px; CURSOR: hand; BORDER-BOTTOM: 0px; TEXT-ALIGN: left
+}
+.MsoBoundSpan {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 3px; BORDER-TOP: 0px; PADDING-LEFT: 3px; OVERFLOW: hidden; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; TEXT-ALIGN: left
+}
+.MsoTextbox {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; OVERFLOW: hidden; WIDTH: 2.539cm; HEIGHT: 0.502cm
+}
+.MSTheme-Label {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 3px; BORDER-TOP: 0px; PADDING-LEFT: 3px; OVERFLOW: visible; BORDER-LEFT: 0px; WIDTH: 2.539cm; BORDER-BOTTOM: 0px; HEIGHT: 0.396cm; TEXT-ALIGN: left
+}
+</STYLE>
+
+<SCRIPT language=Javascript id=MSODSC_Validation>
+validateBrowser();
+
+function validateBrowser() {
+	strVers=navigator.appVersion
+	strName=navigator.appName
+	strPlat=navigator.platform
+	intIndex1=strVers.indexOf("MSIE");
+	intIndex1=intIndex1+5
+	intIndex2=strVers.lastIndexOf(";");
+	intVer=strVers.substring(intIndex1, intIndex2)
+	intVer=parseInt(intVer)
+	if (strName=="Microsoft Internet Explorer" && strPlat=="Win32" && intVer>="5") {
+	validateOWC();
+	}
+	else {
+		strMsgGetIE="<TABLE cellSpacing=0 cellPadding=0 width='95%' border=0 height='8'><TR>"
+		strMsgGetIE+="<TD bgColor='#336699' height=25 width=15>&nbsp;</TD><TD bgColor='#666666' width=500px><FONT face=Tahoma "
+		strMsgGetIE+="size=4 color=white><b>&nbsp;Oznámení datové stránky</B></FONT></TD></TR>"
+		strMsgGetIE+="<TR><TD bgColor='#cccccc' width=15>&nbsp;</TD><TD bgColor='#cccccc' width=500px><BR>"
+		strMsgGetIE+="<p><font face='Tahoma' size='2'>"
+		strMsgGetIE+="K zobrazení této stránky je vyžadována aplikace Windows IE verze 5.0 nebo vyšší.</p>"
+		strMsgGetIE+="<a href='http://www.microsoft.com/isapi/redir.dll?Prd=Office&Sbp=Access&Pver=10&Ar=DPdesigner&Sba=IEhome&Plcid=1029'><p align='center'>"
+		strMsgGetIE+="Zde klepněte, chcete-li nainstalovat aktuální verzi aplikace Internet Explorer.</a></font></p><br></TD></TR></TABLE>"
+		document.write(strMsgGetIE)
+	}
+}
+
+function validateOWC() {
+	if (MSODSC.object==null) {
+		strMsgGetOWC="<TABLE width='95%' cellpadding=0 cellspacing=0 border=0 height='8'>"
+		strMsgGetOWC+="<TR><TD bgColor='#336699' height=25 width=15>&nbsp;</TD><TD bgColor='#666666' width=500px>"
+		strMsgGetOWC+="<FONT face=Tahoma color=white size=4><B>&nbsp;&nbsp;"
+		strMsgGetOWC+="Oznámení datové stránky</B></FONT></TD></TR><TR><TD bgColor='#cccccc' width=15>&nbsp;</TD>"
+		strMsgGetOWC+="<TD bgColor='#cccccc' width='500px'><BR>"
+		strMsgGetOWC+="<p><font face='Tahoma' size='2'>K zobrazení této stránky jsou vyžadovány komponenty Office Web Components.</p>"
+		strMsgGetOWC+="</font><p><font face='Tahoma' size='2'>See the <a HRef='http://r.office.microsoft.com/r/rlidmsowcpub?clid=1029&p1=Microsoft Access&HelpLCID=1033'>Microsoft Office Web site</a> for more information. "
+		strMsgGetOWC+="</font></p><BR></TD></TR></TABLE>"
+		document.write(strMsgGetOWC)
+	}
+}
+
+</SCRIPT>
+
+<META content="Water 011" name="Microsoft Theme 2.00"><LINK id=mstheme 
+href="kredit_soubory\file0007.css" type=text/css rel=StyleSheet><LINK id=mstheme 
+href="kredit_soubory\file0008.css" type=text/css rel=StyleSheet><LINK id=mstheme 
+href="kredit_soubory\file0012.css" type=text/css rel=StyleSheet><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>none</o:Author>
+  <o:LastAuthor>none</o:LastAuthor>
+  <o:Revision>1</o:Revision>
+  <o:TotalTime>0</o:TotalTime>
+  <o:Created>2004-10-01T20:04:16Z</o:Created>
+  <o:LastSaved>2004-10-01T20:05:37Z</o:LastSaved>
+  <o:Company>none</o:Company>
+  <o:Version>11.6360</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--></HEAD>
+<BODY style="OVERFLOW: auto" vLink=#800080 link=#0000ff>
+<CENTER>
+<H1 class="" id=TextHlavičky>Kredit</H1>
+<P class="">Navýšení kreditu zákazníka</P></CENTER>
+<DIV class=Mso2dSectionBanner id=TitulekordersCustNoBanner 
+style="MARGIN-LEFT: 0px; WIDTH: 15.133cm" tabIndex=-1><SPAN 
+id=TitulekordersCustNoBannerCaption>Titulek: orders-CustNo</SPAN></DIV>
+<DIV class=Mso2dSection id=TitulekordersCustNo 
+style="VISIBILITY: hidden; MARGIN-LEFT: 0px; WIDTH: 15.133cm; HEIGHT: 1.015cm"></DIV>
+<DIV class=Mso2dSectionBanner id=ZáhlavíordersCustNoBanner 
+style="MARGIN-LEFT: 0px; WIDTH: 15.133cm" tabIndex=-1><SPAN 
+id=ZáhlavíordersCustNoBannerCaption>Záhlaví: orders-CustNo</SPAN></DIV>
+<DIV class=Mso2dSection id=ZáhlavíordersCustNo 
+style="VISIBILITY: hidden; MARGIN-LEFT: 0px; WIDTH: 15.133cm; HEIGHT: 0.688cm"><IMG 
+class=MsoExpandCollapse id=orders-CustNoRozbalit 
+style="LEFT: 0.105cm; POSITION: absolute; TOP: 0.211cm" tabIndex=1 
+src="owc://GIF/#11250"><SPAN class=MSTheme-Label id=CustNo_Popis 
+style="LEFT: 0.795cm; OVERFLOW: hidden; WIDTH: 3.81cm; POSITION: absolute; TOP: 0cm; HEIGHT: 0.61cm">CustNo</SPAN><TEXTAREA class=MsoTextbox id=CustNo style="LEFT: 4.605cm; WIDTH: 184px; POSITION: absolute; TOP: 0cm; HEIGHT: 20px" tabIndex=29 MsoTextAlign="General"></TEXTAREA></DIV>
+<DIV class=Mso2dSectionBanner id=ZáhlavíordersBanner 
+style="MARGIN-LEFT: 24px; WIDTH: 15.133cm" tabIndex=-1><SPAN 
+id=ZáhlavíordersBannerCaption>Záhlaví: orders</SPAN></DIV>
+<DIV class=Mso2dSection id=Záhlavíorders 
+style="VISIBILITY: hidden; MARGIN-LEFT: 24px; WIDTH: 15.133cm; HEIGHT: 1.377cm"><SPAN 
+class=MSTheme-Label id=OrderNo_Popis 
+style="LEFT: 0.846cm; OVERFLOW: hidden; WIDTH: 3.81cm; POSITION: absolute; TOP: 0cm; HEIGHT: 0.61cm">Lekce 
+číslo</SPAN><TEXTAREA class=MsoTextbox id=OrderNo style="LEFT: 4.656cm; WIDTH: 184px; POSITION: absolute; TOP: 0cm; HEIGHT: 20px" tabIndex=30 MsoTextAlign="General"></TEXTAREA><SPAN 
+class=MSTheme-Label id=AmountPaid_Popis 
+style="LEFT: 0.846cm; OVERFLOW: hidden; WIDTH: 3.81cm; POSITION: absolute; TOP: 0.688cm; HEIGHT: 0.61cm">zaplaceno</SPAN><TEXTAREA class=MsoTextbox id=AmountPaid style="LEFT: 4.656cm; WIDTH: 184px; POSITION: absolute; TOP: 0.688cm; HEIGHT: 20px" tabIndex=31 MsoTextAlign="General"></TEXTAREA></DIV>
+<DIV class=Mso2dSectionBanner id=NavigaceordersBanner 
+style="MARGIN-LEFT: 24px; WIDTH: 15.133cm" tabIndex=-1><SPAN 
+id=NavigaceordersBannerCaption>Navigace: orders</SPAN></DIV>
+<DIV class=Mso2dSection id=Navigaceorders 
+style="VISIBILITY: hidden; MARGIN-LEFT: 24px; WIDTH: 15.133cm; HEIGHT: 0.846cm">
+<TABLE class=MsoNavContainer id=ordersNavigace 
+style="LEFT: 4px; WIDTH: 568px; POSITION: absolute; TOP: 4px; HEIGHT: 18px" 
+cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavFirst id=ordersNavFirst tabIndex=1 height=20 
+      src="owc://GIF/#11200" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavPrevious id=ordersNavPrevious tabIndex=2 height=20 
+      src="owc://GIF/#11202" width=20></TD>
+    <TD style="VERTICAL-ALIGN: middle; WIDTH: 100%; TEXT-ALIGN: center" 
+      noWrap><SPAN class=MsoNavRecordsetLabel id=ordersNavLabel 
+      style="VISIBILITY: hidden" tabIndex=3>orders |0 z |2</SPAN></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavNext id=ordersNavNext tabIndex=4 height=20 
+      src="owc://GIF/#11204" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavLast id=ordersNavLast tabIndex=5 height=20 
+      src="owc://GIF/#11206" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavAddNew id=ordersNavNew tabIndex=6 height=20 
+      src="owc://GIF/#11208" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavDelete id=ordersNavDelete tabIndex=7 height=20 
+      src="owc://GIF/#11210" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavSave id=ordersNavSave tabIndex=8 height=20 
+      src="owc://GIF/#11214" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavUndo id=ordersNavUndo tabIndex=9 height=20 
+      src="owc://GIF/#11212" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavSortAsc id=ordersNavSortAscending tabIndex=10 height=20 
+      src="owc://GIF/#11216" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavSortDesc id=ordersNavSortDescending tabIndex=11 height=20 
+      src="owc://GIF/#11218" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavFilter id=ordersNavFilterBySelection tabIndex=12 height=20 
+      src="owc://GIF/#11220" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavToggleFilter id=ordersNavFilterToggle tabIndex=13 height=20 
+      src="owc://GIF/#11222" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavHelp id=ordersNavHelp tabIndex=14 height=20 
+      src="owc://GIF/#11224" width=20></TD></TR></TBODY></TABLE></DIV>
+<DIV class=Mso2dSectionBanner id=NavigaceordersCustNoBanner 
+style="MARGIN-LEFT: 0px; WIDTH: 15.133cm" tabIndex=-1><SPAN 
+id=NavigaceordersCustNoBannerCaption>Navigace: orders-CustNo</SPAN></DIV>
+<DIV class=Mso2dSection id=NavigaceordersCustNo 
+style="VISIBILITY: hidden; MARGIN-LEFT: 0px; WIDTH: 15.133cm; HEIGHT: 0.846cm">
+<TABLE class=MsoNavContainer id=orders-CustNoNavigace 
+style="LEFT: 4px; WIDTH: 568px; POSITION: absolute; TOP: 4px; HEIGHT: 18px" 
+cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavFirst id=orders-CustNoNavFirst tabIndex=15 height=20 
+      src="owc://GIF/#11200" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavPrevious id=orders-CustNoNavPrevious tabIndex=16 height=20 
+      src="owc://GIF/#11202" width=20></TD>
+    <TD style="VERTICAL-ALIGN: middle; WIDTH: 100%; TEXT-ALIGN: center" 
+      noWrap><SPAN class=MsoNavRecordsetLabel id=orders-CustNoNavLabel 
+      style="VISIBILITY: hidden" tabIndex=17>orders-CustNo |0 z |2</SPAN></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavNext id=orders-CustNoNavNext tabIndex=18 height=20 
+      src="owc://GIF/#11204" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavLast id=orders-CustNoNavLast tabIndex=19 height=20 
+      src="owc://GIF/#11206" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavAddNew id=orders-CustNoNavNew tabIndex=20 height=20 
+      src="owc://GIF/#11208" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavDelete id=orders-CustNoNavDelete tabIndex=21 height=20 
+      src="owc://GIF/#11210" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavSave id=orders-CustNoNavSave tabIndex=22 height=20 
+      src="owc://GIF/#11214" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavUndo id=orders-CustNoNavUndo tabIndex=23 height=20 
+      src="owc://GIF/#11212" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavSortAsc id=orders-CustNoNavSortAscending tabIndex=24 height=20 
+      src="owc://GIF/#11216" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavSortDesc id=orders-CustNoNavSortDescending tabIndex=25 
+      height=20 src="owc://GIF/#11218" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavFilter id=orders-CustNoNavFilterBySelection tabIndex=26 
+      height=20 src="owc://GIF/#11220" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavToggleFilter id=orders-CustNoNavFilterToggle tabIndex=27 
+      height=20 src="owc://GIF/#11222" width=20></TD>
+    <TD class=MsoNavButton style="WIDTH: 20px; HEIGHT: 20px"><IMG 
+      class=MsoNavHelp id=orders-CustNoNavHelp tabIndex=28 height=20 
+      src="owc://GIF/#11224" width=20></TD></TR></TBODY></TABLE></DIV>
+<P>&nbsp;</P></BODY></HTML>

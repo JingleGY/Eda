@@ -1,0 +1,5 @@
+zakaznik poznamky...
+
+Pokud jste napø. smazali zákazníka z tabulky www komponenty z IE a ve výbìru stávajícího zákazníka ho stále vidíte a už v databázi není což mùžete ovìøit tak že klepnete v programu na tlaèítko SMAZAT a program zahlásí chybu že neexistuje relevantní záznam, odstraníte jej budto ukonèením a znovuspuštìním programu nebo klepnutím na tlaèítko opravit a poté uložit které provede znovuzavolání databázového stroje a nové naètení do komponenty stáv. zákazníkù èímž se komponenta nastaví na 0 index. Tedy nebudou ani v ní ani pod ní zobrazeny žádné záznamy.
+
+V souèasné verzi programu bez záložek již lze zadávat jména zákazníkù s diakritikou na poèáteèním písmenku jména i kdekoliv jinde jak tomu bylo i pøed tím. 

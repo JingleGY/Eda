@@ -1,0 +1,33 @@
+.mstheme {
+	nav-banner-image: url(banner_ripple.gif); separator-image: url(rule_ripple.gif); list-image-1: url(bull1_ripple.gif); list-image-2: url(bull2_ripple.gif); list-image-3: url(bull3_ripple.gif); navbutton-horiz-normal: url(nav_hor_ripple.gif); navbutton-horiz-hovered: url(nav_hor_over_ripple.gif); navbutton-horiz-pushed: url(nav_hor_down_ripple.gif); navbutton-vert-normal: url(nav_vert_ripple.gif); navbutton-vert-pushed: url(nav_vert_down_ripple.gif); navbutton-vert-hovered: url(nav_vert_over_ripple.gif); navbutton-home-normal: url(nav_home_ripple.gif); navbutton-home-hovered: url(nav_home_over_ripple.gif); navbutton-next-normal: url(nav_next_ripple.gif); navbutton-next-hovered: url(nav_next_over_ripple.gif); navbutton-prev-normal: url(nav_prev_ripple.gif); navbutton-prev-hovered: url(nav_prev_over_ripple.gif); navbutton-up-normal: url(nav_up_ripple.gif); navbutton-up-hovered: url(nav_up_over_ripple.gif); navbutton-next-pushed: url(nav_next_down_ripple.gif)
+}
+UL {
+	LIST-STYLE-IMAGE: url(image009.gif)
+}
+UL UL {
+	LIST-STYLE-IMAGE: url(image010.gif)
+}
+UL UL UL {
+	LIST-STYLE-IMAGE: url(image011.gif)
+}
+.mstheme-bannertxt {
+	FONT-SIZE: 5px; COLOR: #ffffff; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif
+}
+.mstheme-horiz-navtxt {
+	FONT-SIZE: 2px; COLOR: #ffffff; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif
+}
+.mstheme-vert-navtxt {
+	FONT-SIZE: 2px; COLOR: #ffffff; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif
+}
+.mstheme-navtxthome {
+	FONT-SIZE: 1px; COLOR: #ffffff; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif
+}
+.mstheme-navtxtup {
+	FONT-SIZE: 1px; COLOR: #ffffff; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif
+}
+.mstheme-navtxtprev {
+	FONT-SIZE: 1px; COLOR: #ffffff; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif
+}
+.mstheme-navtxtnext {
+	FONT-SIZE: 1px; COLOR: #ffffff; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif
+}

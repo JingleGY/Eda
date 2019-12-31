@@ -1,0 +1,33 @@
+Celkové poznámky k programu...do poznámek z menu si pište co potøebujete. Tyto soubory jsou pro Vaše poznámky. Tento text mùete tedy vymazat a nahradit jinım. Nesmíte ale vymazat soubory jako takové z HDD. Mùete si je ale libovolnì zkopírovat a uloit jinam.
+
+
+Manual.doc - aktualní verzi manuálu je moné stáhnout z odkazu nad tímto z internetu z domovské stránky projektu.
+Pokud máte 24hodinovı pøístup k internetu, mùete pouívat manuál on line kterı nezstará.
+
+Pokud v menu narazíte na poloky pod oddìlovaèem jejich funkci nebudete zcela chápat a nikde nenajdete jejich popis, tak je prostì ignorujte. K práci s programem je nepotøebujete. Jsou tam hlavnì kvùli kontrolám pøi tvorbì SW. (a také na pøání sl. Adély Bartošové DiS.)
+Sl. Adéla Bartošová DiS. jakoto hlavní produktovı designer Vám jistì ráda zodpoví veškeré i odborné dotazy tıkající se SW, které jste moná nenašli nikde na domovské stránce na internetu.
+Emaily proto smìøujte na adresu adlabar@seznam.cz pøípadnì na telefon 
+603 481 487.
+Pokud budete mít dotazy tıkající se SW po programové stránce mùete je smìøovat na edaglead@seznam.cz
+Nezaruèuji však e na všechny odpovím a to z jakéhokoli dùvodu.
+
+Pokud se Vám bude zdát e nìkteré vìci napø. v manualu jsou jinak ne by mìli bıt, navštivte prosím nejprve náš web. Aktualizujte si manual staením nové verze z odkazu v menu. V pøípadì e jste nebyli uspokojeni pište na jednu ze jmenovanıch adres a a v nejhorším volejte. Dotazy na vìci které jsou v programu nebo na webu zodpovìzeny, pøípadnì se tıkají práce s PC nebo vlastního OS (napø jak zkopíruji soubor apod.) budou úètovány.
+
+
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+
+
+Licenèní ujednání
+
+Software byl vytvoøen na ádost jednatelky pí. Jitky Pekárkové pro vzdìlávací agenturu FINE. Jeho pouití bylo stanoveno dle dohody na 4 poboèkách této nebo jiné agentury vlastnìné takté vıše jmenovanou osobou maximálnì však v celkem 4 instalacích. Tedy rozumìj takto: Software EDAGLEAD mùe bıt provozován v jakékoli agentuøe (firmì) kterou je vlastníkem pí. Jitka Pekárková nebo na poboèkách této firmy, ale maximálnì na 4 PC najednou. Tedy majitelka vıše zmínìná je zmocnìná udìlit povolení k instalaci èi instalaci sama provést na tyto 4 poèítaèe v rámci stávající dohody. Kadá další instalace je navíc a pro její provozování je potøeba dodateèného svolení tvùrce tohoto software. Jakékoli jiné pouití, tedy jinde ne ve firmách vlasnìnıch pí. Jitkou Pekárkovou a ve více ne 4 kopiích je nelicencovné pokud nebyla uèinìna dodateèná dohoda. Provozovatel SW nesmí provádìt reverseing. Kódu ani jeho komponent a ádnou èást a u hlavního SW nebo jeho komponent provozovat samostatnì na více dalších poèítaèích bez souhlasu autora. Toto se tıká všech èástí SW. Provozovatel si mùe vyrobit záloní kopii a provozovat 1 další kopii na svém osobním PC DOMA za úèelem uèení se zacházet se SW EDAGLEAD.
+Pøijmutím této dohody se provozovatel zavazuje ke splnìní vıše uvedenıch skuteèností a to a dohodu pøijímal on nebo osoba jím povìøená. (nejèasteji osoba SW instalující)
+
+Provozovatel SW tímto také souhlasí stím, e si peèlivì proète priloenou dokumentaci a to jak soubor README tak MANUAL.doc a prostuduje si pøed vznášením dotazù http://sweb.cz/edaglead/ webové stránky sekci FAQ (èasto kladené otázky) a ve vlastním programu poznámky.txt kt. Jsou dostupné z menu k jednotlivım polokám.
+Pokud tak neuèiní a bude vznášet dotazy (kt. Ji v tìchto vıše jmenovanıch zdrojích informací byli zodpovìzeny) na telefonickou podporu autora nebo jeho email bude mu kadá otázka úètována jak je v tìchto zdrojích uvedeno. Odpovìdi na otázky kt. Souvisi napø. S OS a ne se SW EDAGLEAD budou úètovány takté.
+
+
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+
+
